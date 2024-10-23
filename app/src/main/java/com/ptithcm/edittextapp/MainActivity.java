@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public void logIn(View view) {
+    public void logIn(View abc) {
         Intent intent = new Intent(MainActivity.this, showInformation.class);
         intent.putExtra("Email", editText1.getText().toString());
         intent.putExtra("Password", editText2.getText().toString());
