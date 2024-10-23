@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void goToRegistration() {
-        Intent intent = new Intent(MainActivity.this, Registation.class);
-        startActivity(intent);
+        Intent iintent = new Intent(MainActivity.this, Registation.class);
+        startActivity(iintent);
     }
 }
